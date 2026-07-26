@@ -1,56 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Register</title>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <h1>Student Registration</h1>
 
-<hr>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="courses.html">Courses</a>
+    <a href="assignments.html">Assignments</a>
+    <a href="events.html">Events</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-<a href="index.html">Home</a>
+<div class="form-box">
 
-<hr>
+<h2>Create New Account</h2>
 
 <form>
 
-Name
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
 
-<br>
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email">
 
-<input type="text">
+<label>Mobile Number</label>
+<input type="tel" placeholder="Enter your mobile number">
 
-<br><br>
+<label>Roll Number</label>
+<input type="text" placeholder="Enter your roll number">
 
-Email
+<label>Department</label>
+<select>
+    <option>Select Department</option>
+    <option>Computer Science</option>
+    <option>Information Technology</option>
+    <option>Electronics</option>
+    <option>Mechanical</option>
+    <option>Civil</option>
+</select>
 
-<br>
+<label>Semester</label>
+<select>
+    <option>Select Semester</option>
+    <option>Semester 1</option>
+    <option>Semester 2</option>
+    <option>Semester 3</option>
+    <option>Semester 4</option>
+</select>
 
-<input type="email">
+<label>Password</label>
+<input type="password" placeholder="Create password">
 
-<br><br>
-
-Mobile
-
-<br>
-
-<input type="text">
-
-<br><br>
-
-Password
-
-<br>
-
-<input type="password">
-
-<br><br>
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm password">
 
 <input type="submit" value="Register">
+<input type="reset" value="Reset">
 
 </form>
+
+</div>
+
+<footer>
+<p>© 2026 StudentHub Portal | Developed by Kris Vaghasiya</p>
+</footer>
 
 </body>
 </html>
